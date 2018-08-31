@@ -1,0 +1,37 @@
+
+    <div class="row top navbar-fixed-top">
+        <div class="col-md-12 top-img">
+            <div class="row position-r">
+            	<div class="col-md-6 position-a margin-tb-10"><img src="static/img/neiYe-logo.png"></div>
+                <div class="position-a" style="right:5px; top:-5px;"><img src="static/img/neiYe-logo-r.png" height="78"></div>
+            </div>
+            <div class="row top-nav">
+            	<div class="col-md-12" id="user">
+            		
+					<span title="预留信息：Acme&#45;Hackme&#32;Corp&#46;">admin（&#24179;&#21488;&#31649;&#29702;&#21592;）</span>，欢迎您使用本平台。
+					<a href="/logout/stuff" style="float:right" onclick="javascript:emptyCookie();"><span class="glyphicon glyphicon-log-out"></span> 安全退出</a>
+					<a class="information-box" href="#" style="float:right" id="ringImg">
+						<img src="static/img/message.png" alt="">
+						<i id="messageCount"></i>
+					</a>
+					<div class="information-div" style="display: none;" id="messageTable">
+						<p class="information-title">
+							<span class="active-span" onclick="showNoticeList()">公告<i id="noticeCount"></i></span>
+							<span onclick="showNewsList()">消息<i id="newsCount"></i></span>
+						</p>
+						<ul class="announcement-ul active-ul" id="noticeUL">
+
+						</ul>
+						<ul class="message-ul" id="newsUL">
+
+						</ul>
+						<div class="information-foot">
+							<span onclick="updateStatus()">标记为已读</span>
+							<span onclick="getAll()">查看全部</span>
+						</div>
+					</div>
+
+            	</div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,76 @@
+
+<div class="col-md-2 sidebar">
+				
+    <div class="navbar-collapse">
+   	    <ul class="nav nav-stacked" id="accordion" role="tablist">
+   			
+   		    <li><a href="/stuff/welcome"><span class="glyphicon glyphicon-align-left"></span>　业绩排名</a></li>
+   			
+   		    <li><a data-toggle="collapse" data-parent="#accordion" href="#policy-side"><span class="glyphicon glyphicon-list-alt"/></span>　保单支付　<span class="caret"></span></a>
+   		        <ul id="policy-side" class="nav collapse sidebar-sub">
+   		        <li><a href="/policy/query"> 单笔支付</a></li>
+   		        <li><a href="/policy/batch"> 批量支付</a></li>
+   				<li><a href="/policy/processQuery"> 处理中交易</a></li>
+   		        </ul>
+   		    </li>
+   		    
+   		    <li>
+   		        <a data-toggle="collapse" data-parent="#accordion" href="#company-side"><span class="glyphicon glyphicon-home"></span>　公司管理　<span class="caret"></span></a>
+   		        <ul id="company-side" class="nav collapse sidebar-sub">
+   		           <li><a href="/company/info">企业信息</a></li>
+   		           <li><a href="/company/stuff/create">创建用户</a></li>
+   		           <li><a href="/company/stuff/list">用户管理</a></li>
+   		           <li><a href="/company/workgroup/list">分组管理</a></li>
+   		            
+   		           <li><a href="/company/password">修改密码</a></li>
+   		        </ul>
+   		    </li>
+   		    
+   	        <li>
+   	            <a data-toggle="collapse" data-parent="#accordion" href="#finance-side"><span class="glyphicon glyphicon-usd"></span>　财务管理　<span class="caret"></span></a>
+   	            <ul id="finance-side" class="nav collapse sidebar-sub">
+   	                <li><a href="/bill/goto-transaction-statistics-page">交易统计</a></li>
+   	                
+   	                <li><a href="/finance/quota/list">资金额度管理</a></li>
+   	                <li><a href="/bill/StatementQueryAction_returnQueryPage.action">账单查询</a></li>
+   					
+   	            </ul>
+   	        </li>
+   		    
+   				<li>
+   					<a data-toggle="collapse" data-parent="#accordion" href="#trade-side"><span class="glyphicon glyphicon-search"></span>　交易查询　<span class="caret"></span></a>
+   					<ul id="trade-side" class="nav collapse sidebar-sub">
+   						<li><a href="/bill/TransactionQueryAction_todayPage.action">实时交易查询</a></li>
+   						<li><a href="/bill/TransactionQueryAction_historyPage.action">历史交易查询</a></li>
+   					</ul>
+   				</li>
+   			
+   			   	<li>
+   		            <a data-toggle="collapse" data-parent="#accordion" href="#cav-side"><span class="glyphicon glyphicon-calendar"></span>　核销还款　<span class="caret"></span></a>
+   		            <ul id="cav-side" class="nav collapse sidebar-sub">
+   		            	
+   		                <li><a href="/bill/RevokerAction_ReturnQueryPage.action">撤单</a></li>
+   		                
+   		                <li><a href="/bill/ChargeOffBillAction_ReturnQueryPage.action">撤单核销</a></li>
+   		                <li><a href="/bill/CashChargeOffBillAction_ReturnQueryPage.action">现金核销</a></li>
+   		                <li><a href="/bill/ChargeOffBillAction_ReturnAllDetailPage.action">核销明细</a></li>
+   						
+   		            </ul>
+   		        </li>
+   			
+   		    <li>
+   		        <a data-toggle="collapse" data-parent="#accordion" href="#stuff-side"><span class="glyphicon glyphicon-user"></span>　个人菜单　<span class="caret"></span></a>
+   		        <ul id="stuff-side" class="nav collapse sidebar-sub">
+   					
+   		            <li><a href="/stuff/info">个人信息</a></li>
+   					
+   		            <li><a href="/bill/SalemanTscQueryAction_pessionValidatingAndCreatePage.action">业绩报表</a></li>
+   		            
+   		            <li><a href="/stuff/password">修改密码</a></li>
+   					<li><a href="/stuff/message/getListPage">我的消息</a></li>
+   		        </ul>
+   		    </li>
+   	    </ul>
+    </div>
+
+</div>

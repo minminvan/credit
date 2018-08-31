@@ -1,0 +1,35 @@
+.credit-bind-panel {
+	padding-bottom: 8px;
+	border: 1px solid transparent;
+	border-color: $borderColor;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	background-color: $panelColor;
+	.credit-bind-header {
+		position: relative;
+		left: 27px;
+		padding: 5px 10px;
+		color: #fff;
+		background-color: $panelHeader;
+		display: inline-block;
+	}
+	.credit-bind-form {
+		margin: 23px 0 0 10px;
+		div {
+			margin: 0px 0 15px 0;
+		}
+		.credit-bind-title {
+			float: left;
+			margin: 8px 15px 0 0;
+			width: 120px;
+			text-align: right;
+		}
+		label.error {
+			display: block;
+			margin: 4px 0 0 150px;
+			font-weight: 400;
+			color: red;
+
+		}
+	}
+}
